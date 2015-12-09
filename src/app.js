@@ -11,7 +11,7 @@ class AppRouter extends React.Component {
   renderScene(route, nav) {
     switch (route.name) {
       case 'helloWorld':
-        return <View nav={nav}><Text>Hello World</Text></View>;
+        return <View nav={nav} style={{backgroundColor:"green", flex:1, alignSelf:'center', justifyContent:'center'}}><Text>Hello World</Text></View>;
       default:
         return <View><Text>Hello World</Text></View>;
     }
