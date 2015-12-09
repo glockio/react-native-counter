@@ -1,0 +1,18 @@
+{
+  "name": "reactNativeTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "firebase": "^2.3.1",
+    "immutable": "^3.7.5",
+    "react-native": "^0.14.2",
+    "react-native-vector-icons": "^1.0.0",
+    "react-redux": "^3.0.1",
+    "redux": "^3.0.2",
+    "redux-thunk": "^1.0.0",
+    "reselect": "^2.0.1"
+  }
+}
