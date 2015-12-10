@@ -1,6 +1,7 @@
 import React from 'react-native';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux/native';
+import CounterContainer from './containers/counter.container';
 
 const {
  Navigator, View, Text
@@ -11,7 +12,7 @@ class AppRouter extends React.Component {
   renderScene(route, nav) {
     switch (route.name) {
       case 'helloWorld':
-        return <View nav={nav} style={{backgroundColor:"green", flex:1, alignSelf:'center', justifyContent:'center'}}><Text>Hello World</Text></View>;
+        return <CounterContainer/>;
       default:
         return <View><Text>Hello World</Text></View>;
     }

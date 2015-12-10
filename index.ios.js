@@ -4,6 +4,8 @@ import {Provider} from 'react-redux/native';
 import rootReducer from './src/reducers/root.reducer';
 import App from './src/app';
 import thunk from 'redux-thunk';
+import Firebase from "firebase";
+
 
 const {AppRegistry, Component} = React; // React Must be defined;
 
@@ -16,7 +18,6 @@ const createStoreWithMiddleware = applyMiddleware(
 // Init Store with root reducer
 const store = createStoreWithMiddleware(rootReducer);
 
-console.log(store.getState().toJS());
 
 class reactNativeTest extends Component {
 
