@@ -1,4 +1,6 @@
-# React Native Counter Example From Video Tutorial  
+# React Native Counter Example From Video Tutorials  https://www.youtube.com/watch?v=QPu3UR1Z5Ns
+
+
 
 ## The Stack
  1. Immutable.js
